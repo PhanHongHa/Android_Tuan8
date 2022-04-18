@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/group"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="421dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/intersect__1_"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/grommet_icons_google"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE NEW ACCOUNT"
+        android:textColor="#070707"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="266dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="263dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="268dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="199dp"
+        android:layout_height="56dp"
+        android:text="REGISTER"
+        app:backgroundTint="#EF77B0"
+        app:cornerRadius="30dp"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER  WITH GOOGLE"
+        android:textColor="#35AAE1"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?"
+        android:textColor="#EAE0E0"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textColor="#EFE5E5"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="678dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
